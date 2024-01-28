@@ -2,6 +2,13 @@ main {
     font-family: 'Roboto Mono', monospace;
     position: relative;
 }
+.titulos{
+    color: #ab12ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .circle {
     border-radius: 50%;
@@ -23,8 +30,8 @@ main {
     position: absolute;
     width: 160px;
     height: 160px;
-    left: calc(50% - 80px);
-    top: calc(50% - 80px);
+    left: calc(50% -40px);
+    top: calc(50% +20px) ;
     background-color: #1d1d1d;
 }
 
@@ -35,7 +42,7 @@ main {
     background-color: #fff;
     position: absolute;
     left: calc(50% - 10px);
-    top: calc(50% - 10px);
+    top: calc(80% - 10px);
     animation: rotacion 60s linear infinite;
     animation-play-state: paused;
 }
